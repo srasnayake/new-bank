@@ -3,7 +3,7 @@
 # docker run -p 3000:3000 -d appsecco/node-reverse-shell
 #
 
-FROM node:argon-slim
+FROM node:16.9.0-slim
 MAINTAINER Madhu Akula <madhu@appsecco.com>
 
 RUN mkdir -p /usr/src/app
