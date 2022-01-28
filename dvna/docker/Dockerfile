@@ -4,7 +4,7 @@
 # docker run -p 3000:3000 -d appsecco/dvna
 #
 
-FROM node:slim
+FROM node:17.4-slim
 MAINTAINER Madhu Akula <madhu@appsecco.com>
 
 # Installing unzip package because we will downloading zip in the next step
