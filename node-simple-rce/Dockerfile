@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:17.7.1-slim
 MAINTAINER Riyaz Walikar <riyaz@appsecco.com>
 
 RUN mkdir -p /usr/src/app
