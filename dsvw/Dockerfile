@@ -3,7 +3,7 @@
 # docker run -p 1234:8000 -d appsecco/dsvw
 #
 
-FROM alpine:latest
+FROM alpine:3.15.3
 MAINTAINER  Madhu Akula <madhu@appsecco.com>
 
 RUN apk --no-cache add python py-lxml \
